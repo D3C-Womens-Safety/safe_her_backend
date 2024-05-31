@@ -19,6 +19,8 @@ const bodyParser = require("body-parser");
 app.use(bodyParser.json());
 app.use(cors());
 
+
+
 const userRouter = require("./routes/user");
 app.use("/user", userRouter);
 
